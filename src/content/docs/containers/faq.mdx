@@ -49,7 +49,7 @@ instance is running, any future requests will be routed to the initial location.
 An Example:
 
 - A user deploys a Container. Cloudflare automatically readies instances across its Network.
-- A request is made from a client in Bariloche, Argentia. It reaches the Worker in
+- A request is made from a client in Bariloche, Argentina. It reaches the Worker in
   Cloudflare's location in Neuquen, Argentina.
 - This Worker request calls `MY_CONTAINER.get("session-1337")` which brings up a Durable
   Object, which then calls `this.ctx.container.start`.
